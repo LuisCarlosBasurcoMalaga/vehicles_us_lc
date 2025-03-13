@@ -16,22 +16,24 @@ This interactive dashboard provides valuable insights into the vehicle market, e
 ✔ Correlation Analysis: A heatmap that shows relationships between numerical features.
 
 📂 Dataset Description
+
 The dataset vehicles_us.csv contains 51,525 vehicle listings and includes the following columns:
 
-Column	Description
-price	Vehicle price in USD
-model_year	Manufacturing year of the vehicle
-model	Vehicle model name
-condition	Condition of the vehicle (excellent, good, fair, etc.)
-cylinders	Number of cylinders in the engine
-fuel	Type of fuel used (gasoline, diesel, hybrid, etc.)
-odometer	Mileage in miles
-transmission	Type of transmission (automatic, manual)
-type	Category of vehicle (sedan, SUV, truck, etc.)
-paint_color	Color of the vehicle
-is_4wd	1 if the vehicle has four-wheel drive, 0 otherwise
-date_posted	Date when the vehicle was listed
-days_listed	Number of days the listing was active
+| Column          | Description |
+|---------------|------------|
+| `price` | Vehicle price in USD |
+| `model_year` | Manufacturing year of the vehicle |
+| `model` | Vehicle model name |
+| `condition` | Condition of the vehicle (excellent, good, fair, etc.) |
+| `cylinders` | Number of cylinders in the engine |
+| `fuel` | Type of fuel used (gasoline, diesel, hybrid, etc.) |
+| `odometer` | Mileage in miles |
+| `transmission` | Type of transmission (automatic, manual) |
+| `type` | Category of vehicle (sedan, SUV, truck, etc.) |
+| `paint_color` | Color of the vehicle |
+| `is_4wd` | 1 if the vehicle has four-wheel drive, 0 otherwise |
+| `date_posted` | Date when the vehicle was listed |
+| `days_listed` | Number of days the listing was active |
 
 🚗 Análisis de Datos de Ventas de Vehículos
 📌 Descripción del Proyecto
@@ -47,7 +49,9 @@ Este dashboard interactivo ayuda a identificar tendencias del mercado automotriz
 ✔ Modelos más vendidos: Un gráfico de barras con los 10 modelos más vendidos.
 ✔ Análisis de correlación: Un heatmap que muestra relaciones entre variables numéricas.
 
-📂 | Column          | Description |
+📂 
+
+| Column          | Description |
 |---------------|------------|
 | `price` | Vehicle price in USD |
 | `model_year` | Manufacturing year of the vehicle |
