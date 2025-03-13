@@ -32,6 +32,7 @@ paint_color	Color of the vehicle
 is_4wd	1 if the vehicle has four-wheel drive, 0 otherwise
 date_posted	Date when the vehicle was listed
 days_listed	Number of days the listing was active
+
 🚗 Análisis de Datos de Ventas de Vehículos
 📌 Descripción del Proyecto
 Este proyecto es una aplicación web de análisis de datos desarrollada con Streamlit, que permite a los usuarios explorar y visualizar un conjunto de datos de vehículos usados en venta en los Estados Unidos. El dataset incluye diversas características como precio, año del modelo, kilometraje, tipo de combustible, condición, transmisión y más.
@@ -46,21 +47,19 @@ Este dashboard interactivo ayuda a identificar tendencias del mercado automotriz
 ✔ Modelos más vendidos: Un gráfico de barras con los 10 modelos más vendidos.
 ✔ Análisis de correlación: Un heatmap que muestra relaciones entre variables numéricas.
 
-📂 Descripción del Dataset
-El conjunto de datos vehicles_us.csv contiene 51,525 anuncios de vehículos en venta e incluye las siguientes columnas:
+📂 | Column          | Description |
+|---------------|------------|
+| `price` | Vehicle price in USD |
+| `model_year` | Manufacturing year of the vehicle |
+| `model` | Vehicle model name |
+| `condition` | Condition of the vehicle (excellent, good, fair, etc.) |
+| `cylinders` | Number of cylinders in the engine |
+| `fuel` | Type of fuel used (gasoline, diesel, hybrid, etc.) |
+| `odometer` | Mileage in miles |
+| `transmission` | Type of transmission (automatic, manual) |
+| `type` | Category of vehicle (sedan, SUV, truck, etc.) |
+| `paint_color` | Color of the vehicle |
+| `is_4wd` | 1 if the vehicle has four-wheel drive, 0 otherwise |
+| `date_posted` | Date when the vehicle was listed |
+| `days_listed` | Number of days the listing was active |
 
-Columna	Descripción
-price	Precio del vehículo en USD
-model_year	Año de fabricación del vehículo
-model	Nombre del modelo del vehículo
-condition	Condición del vehículo (excelente, buena, regular, etc.)
-cylinders	Número de cilindros en el motor
-fuel	Tipo de combustible (gasolina, diésel, híbrido, etc.)
-odometer	Kilometraje en millas
-transmission	Tipo de transmisión (automática, manual)
-type	Categoría del vehículo (sedán, SUV, camión, etc.)
-paint_color	Color del vehículo
-is_4wd	1 si el vehículo tiene tracción en las cuatro ruedas, 0 en caso contrario
-date_posted	Fecha en la que se publicó el anuncio
-days_listed	Número de días que el anuncio estuvo activo
-   
