@@ -45,29 +45,6 @@ The interactive dashboard enhances data exploration with user-friendly features:
 - **Top 10 Models Bar Chart:** Highlights the most frequently listed models.
 - **Correlation Heatmap:** Visualizes correlations for selected data subsets.
 
-## How to Run the Project
-1. Clone this repository:
-   ```bash
-   git clone <repository_url>
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd vehicles_us_lc
-   ```
-
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Run the dashboard:
-   ```bash
-   streamlit run app.py
-   ```
-
-5. Open the provided URL in your browser to access the dashboard.
-
 ## Dataset
 The dataset (`vehicles_us.csv`) contains the following key columns:
 - **price**: Vehicle sale price
