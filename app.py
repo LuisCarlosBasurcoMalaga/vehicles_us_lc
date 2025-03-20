@@ -19,6 +19,7 @@ if os.path.exists(file_path):
     # Filter by fuel type
     fuel_types = car_data["fuel"].unique()
     selected_fuel = st.selectbox("Select a fuel type:", fuel_types)
+    
     filtered_df = car_data[car_data["fuel"] == selected_fuel]
 
     # Filter by transmission type
